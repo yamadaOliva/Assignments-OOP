@@ -1,11 +1,15 @@
 package Week1;
-
+import java.time.*; 
+   
+import java.util.Date;
 public class DigitalVideoDisc {
 	private String title;
 	private String category;
 	private String director;
 	private int length;
 	private float cost;
+	
+	
 	public DigitalVideoDisc() {
 		// TODO Auto-generated constructor stub
 	}
@@ -32,6 +36,7 @@ public class DigitalVideoDisc {
 		this.length = length;
 		this.cost = cost;
 	}
+	
 	public String getTitle() {
 		return title;
 	}

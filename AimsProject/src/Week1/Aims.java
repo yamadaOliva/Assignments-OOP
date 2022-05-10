@@ -19,16 +19,16 @@ public class Aims {
 		dvd2.setCost(24.95f);
 		dvd2.setDirector("George Lucas");
 		dvd2.setLength(124);
-		anOrder.addDigitalVideoDisc(dvd2);
+		
 		
 		DigitalVideoDisc dvd3 = new DigitalVideoDisc("ALaddin");
 		dvd3.setCategory("Animation");
 		dvd3.setCost(18.99f);
 		dvd3.setDirector("Jonh Musker");
 		dvd3.setLength(90);
-		anOrder.addDigitalVideoDisc(dvd3);
+		anOrder.addDigitalVideoDisc(dvd3,dvd2);
 		
-		System.out.print("Total Cost:"+anOrder.totalCost());
+		anOrder.display();
 	}
 
 }
